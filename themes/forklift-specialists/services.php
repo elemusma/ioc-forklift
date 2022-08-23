@@ -18,7 +18,7 @@ get_header(); ?>
 
 <div class="row">
   <div class="text-center col-xs-12">
-    <h2>We are well qualified to repair all brands & ages of forklifts.</h2>
+    <h2>We are qualified to perform maintenance and repairs on most brands of forklifts.</h2>
     <button type="button" class="contact_button" data-toggle="modal" data-target="#exampleModalCenter">
       Email Us For Service
     </button>
@@ -31,7 +31,7 @@ get_header(); ?>
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">You will be contacted within 20 minutes if the request is between 7:30 and 4:30 weekdays.</h5>
+        <!-- <h5 class="modal-title" id="exampleModalLongTitle">You will be contacted within 20 minutes if the request is between 7:30 and 4:30 weekdays.</h5> -->
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -62,7 +62,7 @@ get_header(); ?>
       </div>
 
       <div class="col-md-6 col-sm-12 text-center my-auto">
-        <img class="about_img" src="/wp-content/uploads/2019/04/about_img.jpg">
+        <img class="about_img" src="<?php echo home_url(); ?>/wp-content/uploads/2019/04/about_img.jpg">
       </div>
 
       <div class="clearfix"></div>
@@ -71,7 +71,7 @@ get_header(); ?>
     <div class=" row justify-content-center align-self-center h-100">
 
       <div class="col-md-6 col-sm-6 my-auto">
-        <img class="about_img" src="/wp-content/uploads/2019/05/position_6.jpg">
+        <img class="about_img" src="<?php echo home_url(); ?>/wp-content/uploads/2019/05/position_6.jpg">
       </div>
 
       <div class="col-md-6 col-sm-12 my-auto">

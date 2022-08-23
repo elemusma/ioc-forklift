@@ -61,18 +61,18 @@
 <?php if ( is_front_page() ) { ?>
 <div class="row vertical-align slider_row" style="width:100%;">
     <div class="col-xs-12 col-lg-6 text-center">
-      <img src="/wp-content/uploads/2019/03/forklift_logo.png" class="slider_img" alt="forklift specialists logo">
+      <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/03/forklift_logo.png" class="slider_img" alt="forklift specialists logo">
       <h3 class="head_title">Service with Integrity<br><span>Since 1987</span></h3>
     </div>
     <div class="col-xs-12 col-lg-6">
-      <img class="truck_img" src="/wp-content/uploads/2019/05/van_updated.jpg">
+      <img class="truck_img" src="<?php echo home_url(); ?>/wp-content/uploads/2019/05/van_updated.jpg">
     </div>
 </div>
 <?php } else { ?>
-  <h3 class="head_home"><a href="/">Home</a></h3>
+  <h3 class="head_home"><a href="<?php echo home_url(); ?>/">Home</a></h3>
   <div class="row vertical-align slider_row" style="width:100%;">
       <div class="col-xs-12 col-lg-6 text-center">
-        <img src="/wp-content/uploads/2019/03/forklift_logo.png" class="slider_img" alt="forklift specialists logo">
+        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/03/forklift_logo.png" class="slider_img" alt="forklift specialists logo">
         <h3 class="head_title">Service with Integrity<br><span>Since 1987</span></h3>
       </div>
       <div class="col-xs-12 col-lg-6">
@@ -85,17 +85,17 @@
     <div class="">
       <div class="col-lg-4 col-sm-4 col-xs-12">
         <div class="text-quote">
-          <h3><a href="/services">Request Service</a></h3>
+          <h3><a href="<?php echo home_url(); ?>/services">Request Service</a></h3>
         </div>
       </div>
       <div class="col-lg-4 col-sm-4 col-xs-12">
         <div class="text-quote">
-          <h3><a href="/inventory">Search Inventory</a></h3>
+          <h3><a href="<?php echo home_url(); ?>/inventory">Search Inventory</a></h3>
         </div>
       </div>
       <div class="col-lg-4 col-sm-4 col-xs-12">
         <div class="text-quote">
-          <h3><a href="/rentals">Request Rental</a></h3>
+          <h3><a href="<?php echo home_url(); ?>/rentals">Request Rental</a></h3>
         </div>
       </div>
     </div>

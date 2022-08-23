@@ -1,7 +1,7 @@
 <?php 
 defined( 'ABSPATH' ) || exit;
 return array (
-  'homepage' => 'https://forkliftspecialists.com',
+  'homepage' => 'http://localhost:8888/forklift',
   'cache_options' => 
   array (
     'breeze-active' => '1',

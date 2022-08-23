@@ -22,17 +22,17 @@ get_header(); ?>
    <div class="">
      <div class="col-lg-4 col-sm-4 col-xs-12">
        <div class="text-quote">
-         <h3><a href="/services">Request Service</a></h3>
+         <h3><a href="<?php echo home_url(); ?>/services">Request Service</a></h3>
        </div>
      </div>
      <div class="col-lg-4 col-sm-4 col-xs-12">
        <div class="text-quote">
-         <h3><a href="/inventory">Search Inventory</a></h3>
+         <h3><a href="<?php echo home_url(); ?>/inventory">Search Inventory</a></h3>
        </div>
      </div>
      <div class="col-lg-4 col-sm-4 col-xs-12">
        <div class="text-quote">
-         <h3><a href="/rentals">Request Rental</a></h3>
+         <h3><a href="<?php echo home_url(); ?>/rentals">Request Rental</a></h3>
        </div>
      </div>
    </div>
@@ -45,17 +45,17 @@ get_header(); ?>
     <div class="">
       <div class="home_photo col-md-4 col-sm-8 col-xs-12">
         <div>
-          <img src="/wp-content/uploads/2019/04/postion_1.jpg">
+          <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/04/postion_1.jpg">
         </div>
       </div>
       <div class="home_photo col-md-4 col-sm-4 col-xs-12">
         <div>
-          <img src="/wp-content/uploads/2019/04/position_2.jpg">
+          <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/04/position_2.jpg">
         </div>
       </div>
       <div class="home_photo col-md-4 col-sm-4 col-xs-12">
         <div>
-          <img src="/wp-content/uploads/2019/05/position_3.1.jpg">
+          <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/05/position_3.1.jpg">
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@ get_header(); ?>
 
     <div class="row h-100">
       <div class="my-auto col-sm-12 service_intro">
-        <p>Forklift Specialists, Inc. is a family owned business that has been serving the local community for 32 years. We offer super-fast response time, especially if your forklift is broken down. When you call us you will always get someone to talk to, not an automated phone system. We will service your equipment with integrity and a true desire to always do our best. Our staff is a talented group of hard-working people and we are qualified to repair all brands and ages of forklifts.</p>
+        <p>Forklift Specialists, Inc. is a family owned business that has been serving the local community for 32 years. We offer fast response time, especially if your forklift is broken down. When you call us you will always get someone to talk to, not an automated phone system. We will service your equipment with integrity and a true desire to always do our best. Our staff is a talented group of hard-working people and we are qualified to repair all brands of forklifts.</p>
       </div>
     </div>
 
@@ -77,19 +77,19 @@ get_header(); ?>
       <div class="container">
           <div class="home_photo col-md-4 col-sm-8 col-xs-12">
             <div class="serivce_mark_container">
-              <img class="checkmark" src="/wp-content/uploads/2019/03/check_button.png">
-              <h2>Super Fast Service</h2>
+              <img class="checkmark" src="<?php echo home_url(); ?>/wp-content/uploads/2019/03/check_button.png">
+              <h2>Fast Service</h2>
             </div>
           </div>
           <div class="home_photo col-md-4 col-sm-4 col-xs-12">
             <div class="serivce_mark_container">
-              <img class="checkmark" src="/wp-content/uploads/2019/03/check_button.png">
+              <img class="checkmark" src="<?php echo home_url(); ?>/wp-content/uploads/2019/03/check_button.png">
               <h2>Personalized Support</h2>
             </div>
           </div>
           <div class="home_photo col-md-4 col-sm-4 col-xs-12">
             <div class="serivce_mark_container">
-              <img class="checkmark" src="/wp-content/uploads/2019/03/check_button.png">
+              <img class="checkmark" src="<?php echo home_url(); ?>/wp-content/uploads/2019/03/check_button.png">
               <h2>Family Owned</h2>
             </div>
           </div>
@@ -104,7 +104,7 @@ get_header(); ?>
         <!--/.instagram-->
         <section class="container inventory_container col-sm-12">
             <h2>View our Inventory</h2>
-            <div><a href="/inventory">
+            <div><a href="<?php echo home_url(); ?>/inventory">
               <?php
                 echo do_shortcode('[stack_slider id="58"]	');
               ?></a>
