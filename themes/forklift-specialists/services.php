@@ -18,7 +18,7 @@ get_header(); ?>
 
 <div class="row">
   <div class="text-center col-xs-12">
-    <h2>We are qualified to perform maintenance and repairs on most brands of forklifts.</h2>
+    <h2>We are qualified to perform maintenance and repairs on most brands of forklifts</h2>
     <button type="button" class="contact_button" data-toggle="modal" data-target="#exampleModalCenter">
       Email Us For Service
     </button>
