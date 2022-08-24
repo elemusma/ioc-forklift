@@ -69,7 +69,7 @@ get_header(); ?>
 
     <div class="row h-100">
       <div class="my-auto col-sm-12 service_intro">
-        <p>Forklift Specialists, Inc. is a family owned business that has been serving the local community for 32 years. We offer fast response time, especially if your forklift is broken down. When you call us you will always get someone to talk to, not an automated phone system. We will service your equipment with integrity and a true desire to always do our best. Our staff is a talented group of hard-working people and we are qualified to repair all brands of forklifts.</p>
+        <p>Forklift Specialists, Inc. is a family owned business that has been serving the local community for 32 years. We offer fast response time, especially if your forklift is broken down. When you call us you will always get someone to talk to, not an automated phone system. We will service your equipment with integrity and a true desire to always do our best. Our staff is a talented group of hard-working people and we are qualified to repair most brands of forklifts.</p>
       </div>
     </div>
 
